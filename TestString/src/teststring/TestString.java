@@ -39,19 +39,21 @@ public class TestString {
 
 
 //          facebook id
-//        System.out.println("Enter your email address or phone number");
-//        String userName = a.next();
-//        System.out.println("Pls Enter ur password");
-//        String password= a.next();
-//        
-//        String message= String.format("Wlcome to facbook %s",userName);
-//        
-//        if(userName.equals("java") && password.equals("java123")){
-//            System.out.println(message);
-//        }
-//        else{
-//            System.out.println("Invalid username or password");
-//        }
+        System.out.println("Enter your email address or phone number");
+        String userName = a.next();
+        System.out.println("Pls Enter ur password");
+        String password= a.next();
+        
+        String message= String.format("Wlcome to facbook %s",userName);
+        
+        if(userName.equals("java") && password.length() >3 && password.length() <10){
+            System.out.println(message);
+            
+            
+        }
+        else{
+            System.out.println("Invalid username or password");
+        }
 
         // name 
 
@@ -61,8 +63,8 @@ public class TestString {
 
         // word task
         System.out.println("Enter your Name");
-        String word=a.next();
-        if(word.toUpperCase().startsWith("A") || word.startsWith("E") || word.startsWith("I") || word.startsWith("O") || word.startsWith("U")){
+        String word=a.next().toUpperCase();
+        if(word.startsWith("A") || word.startsWith("E") || word.startsWith("I") || word.startsWith("O") || word.startsWith("U")){
             System.out.println(word +  " Name is start with Vowel word.");
         }
         else{
