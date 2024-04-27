@@ -39,21 +39,23 @@ public class TestString {
 
 
 //          facebook id
-        System.out.println("Enter your email address or phone number");
-        String userName = a.next();
-        System.out.println("Pls Enter ur password");
-        String password= a.next();
-        
-        String message= String.format("Wlcome to facbook %s",userName);
-        
-        if(userName.equals("java") && password.length() >3 && password.length() <10){
-            System.out.println(message);
-            
-            
-        }
-        else{
-            System.out.println("Invalid username or password");
-        }
+//        System.out.println("Enter your email address or phone number");
+//        String userName = a.next();
+//        System.out.println("Pls Enter ur password");
+//        String password= a.next();
+//        
+//        String message= String.format("Wlcome to facbook %s",userName);
+//        
+//        if(userName.equals("java") && password.length() >3 && password.length() <10){
+//            System.out.println(message);
+//            
+//            if(password.length() >3 && password.length() <10){
+//                System.out.println("");
+//            }
+//        }
+//        else{
+//            System.out.println("Invalid username or password");
+//        }
 
         // name 
 
